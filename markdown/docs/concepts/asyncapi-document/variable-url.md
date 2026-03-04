@@ -43,7 +43,7 @@ Define the servers section in your AsyncAPI document, including the `host` and `
 servers:
   production:
     host: '{subdomain}.example.com:{port}'
-    pathname: '/{version}
+    pathname: '/{version}'
     variables:
       subdomain:
         enum:
